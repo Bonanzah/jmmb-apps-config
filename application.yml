@@ -1,0 +1,15 @@
+# Property used on app startup to check the config server status
+configserver:
+  name: Moneyline Registry config server
+  status: Connected to the Moneyline Registry config server!
+
+jhipster:
+  security:
+    authentication:
+      jwt:
+        base64-secret: ZmFlMjBiNGZhN2U5YzZhNDQ5YTI5NGMxZTM0ZTBjOWQ4NmQ5OTMxMDYyMGEwZjc5ZmVjYjVkMDIxYmY3NjgxNjhhNjdmZDM0MzEwNmI0N2Y5YzhjOGY3NzQzOGY1YWY3NTcyNWU3Y2I2OTcyMjk0MTgzY2ViYzAxMDQ1NDYwMmI=
+
+# Enable /management/logfile endpoint for all apps
+logging:
+  path: /tmp
+  file: ${spring.application.name}.log
